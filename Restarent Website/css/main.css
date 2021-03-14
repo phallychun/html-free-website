@@ -1,0 +1,504 @@
+/* all */
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(99deg,#924d1f 0%,#7e4a5f 80%);
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.containNav1{
+    background: linear-gradient(99deg,#702e4a 0%, #aa4704 80%);
+    height: 98vh;
+    box-sizing: border-box;
+}
+.containNav2{
+    background-image:linear-gradient(rgba(248, 212, 10, 0.1),rgba(71, 71, 69, 0.8)),url(/images/background.jpg); 
+    height: 98vh;
+    margin-bottom: 50px;
+}
+.containNav3{
+    background-image:url(/images/drik2.jpg); 
+    height: 60vh;
+}
+
+
+.view-texbox{
+    margin-top: 10%;
+    color: whitesmoke;
+    width: 30%;
+    margin-left: 35%;
+    font-family: serif;
+}
+/* navigation bar style */
+.container-nav {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    /* box-sizing: border-box;
+    position: fixed; */
+   
+}
+
+.twoContain{
+    display: flex;
+    margin-left: 20%;
+    border-collapse: collapse;
+    
+}
+.containtext{
+    font-family: cursive;
+    color: white;
+    margin-top: 5%;
+    margin-right: 10%;
+    padding: 20px;
+    width: 30%;
+   
+    
+}
+.button,
+.menu-link{
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    padding: 10px;
+    width: 30%;
+    margin:auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+.button:hover,
+#login:hover,
+.menu-link:hover{
+    transition: 1s ease;
+    padding: 15px;
+    cursor: pointer;
+}
+.button-link,
+.menu-link a{
+    text-decoration: none;
+}
+
+.containtext h2,
+.menu-contact h2,
+.view-texbox h1{
+    color: rgb(240, 198, 13);
+}
+.containpicture{
+    width: auto;
+    margin-top: 5%;
+}
+.navbar .nav {
+    display: flex;
+    list-style: none;
+    padding:15px;
+    
+}
+
+
+.navbar .nav,
+.brand {
+    padding: 15px;
+    margin-top: 15px;
+
+}
+.nav li a{
+    padding: 15px;
+    text-decoration: none;
+    color : white;
+}
+.nav li a:hover{
+    border:1px solid rgb(24, 216, 6);
+    transition: 1s ease;
+    padding: 5px;
+    cursor: pointer;
+
+}
+#text img:hover{
+    transition: 1s ease;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+#joice img:hover{
+    transition: 1s ease;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+ul .active a{
+    color:rgb(200, 218, 39);
+    
+}
+.navbar .nav,
+.nav-brand {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(250, 246, 240);
+    box-sizing: border-box;
+}
+.view-menus{
+    display: flex;
+    flex-direction: none;
+}
+.view-menus .nav-left{
+    list-style: none;
+    text-transform: uppercase;
+    background:  rgb(77, 2, 2,0.58);
+    width: 90px;
+    padding: 20px;
+    position: fixed;
+    margin-top: 0%;
+}
+.nav-left a,
+.nav-left li{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.nav-left li a:hover{
+    border:1px solid rgb(24, 216, 6);
+    transition: 1s ease;
+    padding: 10px;
+}
+.box-nav{
+    color: rgb(253, 253, 251);
+    box-sizing: border-box;
+    text-align: center;
+    width: 30%;
+}
+
+/* ------- END Navigation-------- */
+
+/* STYLE CARD   */
+.section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+/* Card */
+.card {
+    width: 30%;
+    margin-left: auto;
+    border: 2px solid #702e4a;
+    margin-top: 40px;
+    background: #9b431a;
+}
+
+.card-header {
+    margin: 0;
+    background: yellow;
+}
+.card-header img {
+    width: 100%;
+    height: 200px;
+}
+.card-body {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+.contain-picture{
+    margin-left: 13%;
+    width: 76.5%;
+    background: #9b431a;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    
+}
+.contain-picture p{
+    padding: 30px;
+}
+.contain-picture h1{
+    
+    color: yellow;
+}
+.picture{
+    display: flex;
+    justify-content: space-between;
+}
+.picture img{
+    width:49%;
+    
+}
+.card:hover{
+    transition: 1s ease;
+    border: none;
+    cursor: pointer;
+}
+.contain-picture img:hover{
+    transition: 1s ease;
+    border: 3px solid rgb(77, 2, 2);
+    cursor: pointer;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background: blanchedalmond;
+    color:rgb(7, 7, 7);
+    height: auto;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+}
+.container .text-container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    font-size: large;
+    padding: 20px;
+}
+.container .text-container h1{
+    color: rgb(255, 145, 0);
+    margin-left: 25%;
+    font-size: 40px;
+    
+}
+.container .image-container:hover{
+    transition: 1s ease;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.describtion,
+.about-info .dinner-even{
+    background: blanchedalmond;
+    font-family: Arial;
+    font-size: large;
+    text-align:center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.describtion h1{
+    color: rgb(255, 145, 0);
+}
+.about-info{
+    text-align: center;
+}
+.about-info h1{
+    color: rgb(255, 145, 0);
+    background: cornsilk;
+    font-family: Arial;
+    
+}
+.about-info .twopicture,.dinner-even{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-info .twopicture img,
+.dinner-even img,
+.about-info .natpicture img{
+    width: 50%;
+}
+.natpicture {
+    justify-content: space-between;
+    align-items: center;
+}
+.natpicture .view-menu{
+    width: 30%;
+    margin-left: 5%;
+    background: #9b431a;
+    padding: 30px;
+    
+}
+.about-info .twopicture img:hover{
+    transition: 1s ease;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+.dinner-even img:hover{
+    transition: 1s ease;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+.about-info .natpicture{
+    display: flex;
+    margin-top: 20px;
+    color: white;
+   
+}
+
+.about-info .natpicture img:hover{
+    transition: 1s ease;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.contain-food{
+    margin-top: 20px;
+    text-align: center;
+    color: yellow;
+    background: rgb(233, 68, 17);
+    padding: 20px;
+    font-family: serif;
+}
+
+/* CONTAIN BODY CONTACT PAGE */
+
+
+.containbody {
+    height: 85vh;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    box-sizing: border-box;
+}
+.containbody #joice img{
+    width: 50%;
+    height: 80%;
+}
+.containbody #text{
+    width: 50%;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    font-family: sans-serif;
+    background-color: rgb(174, 199, 174,0.234);
+    box-sizing: border-box;
+}
+#text h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+#text img{
+    width:50%;
+
+}
+.media{
+    margin-top: 10px;
+}
+
+.media a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.containform{
+    background: linear-gradient(90deg,#6e3915 0%, #b13a03 80%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+
+
+#first,
+#last{
+margin-bottom: 10px;
+padding: 10px;
+width: 49%;
+box-sizing: border-box;
+border: none;
+outline: none;
+}
+#first{
+float: left;
+}
+#last{
+float:right;
+}
+#addressing,
+#psw{
+margin-bottom: 10px;
+padding: 10px;
+width: 100%;
+box-sizing: border-box;
+border: none;
+outline: none;
+}
+#login{
+background-color:teal;
+border-radius: 10px;
+color: white;
+width: 30%;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+
+form{
+width: 40%;
+background-color: rgb(217, 226, 220,0.678);
+padding: 20px;
+border-radius: 10px;
+margin: auto;
+text-align: center;
+}
+
+form h2{
+font-family: sans-serif;
+text-align: center;
+color: teal;
+margin-bottom:10px;
+}
+iframe{
+width: 40%;
+height: 52%;
+margin: auto;
+border-radius: 10px;
+
+
+}
+
+
+
+
+/* FOOTER SYLE*/
+footer{
+    background-color: rgb(77, 2, 2);
+    padding: 10vh;
+    color: white;
+    margin-top: 10%;
+
+}
+.contain-footer{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+.contain-footer h3{
+    color: white;
+}
+.footer-info{
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.footer-info a{
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+/* Background color */
+
+
+/* Responsive screen 600px */
+
+@media (max-width: 600px) {
+
+
+    /* column responsive */
+}
